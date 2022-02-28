@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+import { SiZhihu, SiBilibili } from 'react-icons/si'
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
 import * as config from 'lib/config'
 
@@ -44,12 +45,12 @@ export const Footer: React.FC<{
         {config.twitter && (
           <a
             className={styles.twitter}
-            href={`https://twitter.com/${config.twitter}`}
-            title={`Twitter @${config.twitter}`}
+            href={`https://www.zhihu.com/people/${config.twitter}`}
+            title={`Zhihu @${config.twitter}`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTwitter />
+            <SiZhihu />
           </a>
         )}
 
@@ -68,12 +69,12 @@ export const Footer: React.FC<{
         {config.linkedin && (
           <a
             className={styles.linkedin}
-            href={`https://www.linkedin.com/in/${config.linkedin}`}
-            title={`LinkedIn ${config.author}`}
+            href={`https://space.bilibili.com/${config.linkedin}`}
+            title={`Bilibili ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaLinkedin />
+            <SiBilibili />
           </a>
         )}
       </div>
