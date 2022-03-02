@@ -7,13 +7,13 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Ark Hub',
+  domain: 'arkhub.vercel.app',
+  author: 'Wes Lin',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
+  description: 'Wes\'s blog',
+  socialImageTitle: 'Arkhub',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
